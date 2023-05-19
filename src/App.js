@@ -1,9 +1,13 @@
 import React  from 'react';
+import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/js/bootstrap.min.js"
 import './App.css';
-import Header from './Header';
-import Card from './Card';
+import "./Components/Header/Header.css"
+import "./Components/Card/Card.css"
+import Header from './Components/Header/Header';
+import Card from './Components/Card/Card';
 import imagenes from './img/imagenes';
-import Footer from './Footer';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
